@@ -1,0 +1,17 @@
+body {
+    font-family: 'ProximaNovaRegular', sans-serif;
+}
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular.ttf");
+}
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/Proxima-Nova-Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "ProximaNovaLight";
+    src: url("../fonts/Proxima-Nova-Light.otf");
+    font-weight: 300;
+}
