@@ -1,6 +1,9 @@
 /* 
  *  Owl Carousel - Animate Plugin
  */
+ .owl-carousel.owl-loaded {
+    display: block;
+}
 .owl-carousel .animated {
   -webkit-animation-duration: 1000ms;
   animation-duration: 1000ms;
