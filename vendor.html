@@ -21,7 +21,6 @@
             <a class="navbar-brand" href="index.html">
               <h2>GOFESTO</h2>
             </a>
-          
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>  
@@ -37,7 +36,7 @@
 
                 <li class="nav-item ">
                   <a class="nav-link " href="about_us.html" >
-                    About-Us
+                    About Us
                   </a>
                 </li>
 
@@ -57,7 +56,7 @@
 
                 <!-- Dropdown -->
                 <li class="nav-item">
-                  <a class="nav-link ad_lst_lnk" href="find-vendors.html"><i class="icon-add-circle-1"></i> Find Vendors</a>
+                  <a class="nav-link ad_lst_lnk" href="find-vendors.html"> Find Vendors</a>
                 </li>
               </ul>
             </div>
@@ -68,172 +67,349 @@
          <div class="container">
           <div class="vndor_pg_inr">
             <div class="vndr_bnr">
-              <img src="img/find-vendor_bg.jpg" alt="vndr_bnr">
+              <img src="img/Vendor-Registration.jpg" alt="vndr_bnr">
               <div class="vndr_bnr_inr">
                 <h3>Create a Free Gofesto.com account</h3>
                 <p>Fill in the form and enjoy the fast and free services we offer.</p>
               </div>
             </div>
             <div class="vndr_cntnt">
-              <div class="col-md-10 col-lg-10 col-xl-10 col-sm-12">
+              <div class="vndr_cntnt_div">
                 <div class="vndr_cntnt_inr">
                   <div class="vndr_frm_stp">
-                      <span class="vndr_stp active">
-                        <span></span>
-                        <h6>General Information</h6>
-                      </span>
-                      <span class="vndr_stp">
-                        <span></span>
-                        <h6>Photo Gallery</h6>
-                      </span>
-                      <span class="vndr_stp">
-                        <span></span>
-                        <h6>Frequently asked <br>Question</h6>
-                      </span>
-                      <span class="vndr_stp">
-                        <span></span>
-                        <h6>Promotions</h6>
-                      </span>
+                      <div class="step_container">
+                        <ul class="nav progressbar">
+                          <li class="active"  data-toggle="tab" href="#vendor_step_1">General Information</li>
+                          <li data-toggle="tab" href="#vendor_step_2">Photo Gallery</li>
+                          <li data-toggle="tab" href="#vendor_step_3">Frequently asked <br>Question</li>
+                          <li data-toggle="tab" href="#vendor_step_4">Promotions</li>
+                        </ul>
+                      </div>
                   </div>
-                  <div class="vndr_stp_cntnt">
-                    <div class="vndr_login">
-                      <h3>Log in information</h3>
-                      <div class="vndr_frm_bx">
-                        <div class="row">
-                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <div class="vndr_frm_lft">
-                              <div class="form-group">
-                                <label for="Username">Username<sup>*</sup></label>
-                                <input type="text" name="Username" placeholder="Username" class="form-control">
+                  <div class="tab-content">
+                    <div class="tab-pane vendor_step_1 active show" id="vendor_step_1">
+                      <div class="vndr_stp_cntnt">
+                        <div class="vndr_login">
+                          <h3>Log in information</h3>
+                          <div class="vndr_frm_bx">
+                            <div class="row">
+                              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <div class="vndr_frm_lft">
+                                  <div class="form-group">
+                                    <label for="Username">Username<sup>*</sup></label>
+                                    <input type="text" name="Username" placeholder="Username" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="Username">Password<sup>*</sup></label>
+                                    <input type="Password" name="Password" placeholder="Password" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="Username">Confirm Password<sup>*</sup></label>
+                                    <input type="Password" name="Confirm_Password" placeholder="Confirm Password" class="form-control">
+                                  </div>
+                                </div>
                               </div>
-                              <div class="form-group">
-                                <label for="Username">Password<sup>*</sup></label>
-                                <input type="Password" name="Password" placeholder="Password" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="Username">Confirm Password<sup>*</sup></label>
-                                <input type="Password" name="Confirm_Password" placeholder="Confirm Password" class="form-control">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <div class="vndr_frm_rht">
-                              <span>i</span>
-                              <p class="hint_para">you will use this user name and password to sign in. Username must contain a minmum 5 characters.Password must contain 6 characcters is case sensitive</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="vndr_Contact">
-                      <h3>Contact information</h3>
-                      <div class="vndr_frm_bx">
-                        <div class="row">
-                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <div class="vndr_frm_lft">
-                              <div class="form-group">
-                                <label for="Username">Contact Person<sup>*</sup></label>
-                                <input type="text" name="Cperson" placeholder="Contact Person" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="Username">Email<sup>*</sup></label>
-                                <input type="Email" name="Email" placeholder="Email" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="Username">Telephone<sup>*</sup></label>
-                                <input type="number" name="Telephone" placeholder="Telephone" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="Username">Mobile Number<sup>*</sup></label>
-                                <input type="number" name="Mnumber" placeholder="Mobile Number" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="Username">Fax<sup>*</sup></label>
-                                <input type="number" name="Fax" placeholder="Fax" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="Username">Website<sup>*</sup></label>
-                                <input type="number" name="Website" placeholder="Website" class="form-control">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <div class="vndr_frm_rht">
-                              <span>i</span>
-                              <p class="hint_para">Enquiries from couple interested in your services and updates  form weddingwire.in will be sent to this email address.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="vndr_Business">
-                      <h3>Business information</h3>
-                      <div class="vndr_frm_bx">
-                        <div class="row">
-                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <div class="vndr_frm_lft">
-                              <div class="form-group vndr_flx">
-                                <label for="Username">State<sup>*</sup></label>
-                                <select class="form-control">
-                                  <option selected>Select Country</option>
-                                  <option>India</option>
-                                  <option >Bhutan</option>
-                                  <option >Nepal</option>
-                                  <option >Shri Lanka</option>
-                                </select>
-                              </div>
-                              <div class="form-group">
-                                <label for="Username">City/Town<sup>*</sup></label>
-                                <input type="text" name="City" placeholder="City/Town" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="Username">Postal Code<sup>*</sup></label>
-                                <input type="number" name="Postal_Code" placeholder="Postal Code" class="form-control">
-                              </div>
-                              <div class="form-group">
-                                <label for="Username">Address<sup>*</sup></label>
-                                <input type="text" name="Address" placeholder="Address" class="form-control">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <div class="vndr_frm_rht">
-                              <span>i</span>
-                              <p class="hint_para">Enter your business address so that user can see your location.Note that search filters and map features are based on the information.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="vndr_Business_des">
-                      <div class="vndr_frm_bx">
-                        <div class="row">
-                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <div class="vndr_frm_lft">
-                              <div class="form-group">
-                                <label for="Username">Name of your Business<sup>*</sup></label>
-                                <input type="text" name="Business_name" placeholder="Business name" class="form-control">
+                              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <div class="vndr_frm_rht">
+                                  <span>i</span>
+                                  <p class="hint_para">you will use this user name and password to sign in. Username must contain a minmum 5 characters.Password must contain 6 characcters is case sensitive</p>
+                                </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="row">
-                          <div class="col-sm-12 ">
-                            <div class="vndr_Business_des_inr">
-                              <div class="vndr_frm_lft ">
+                        <div class="vndr_Contact">
+                          <h3>Contact information</h3>
+                          <div class="vndr_frm_bx">
+                            <div class="row">
+                              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <div class="vndr_frm_lft">
+                                  <div class="form-group">
+                                    <label for="Username">Contact Person<sup>*</sup></label>
+                                    <input type="text" name="Cperson" placeholder="Contact Person" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="Username">Email<sup>*</sup></label>
+                                    <input type="Email" name="Email" placeholder="Email" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="Username">Telephone<sup>*</sup></label>
+                                    <input type="number" name="Telephone" placeholder="Telephone" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="Username">Mobile Number<sup>*</sup></label>
+                                    <input type="number" name="Mnumber" placeholder="Mobile Number" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="Username">Fax<sup>*</sup></label>
+                                    <input type="number" name="Fax" placeholder="Fax" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="Username">Website<sup>*</sup></label>
+                                    <input type="number" name="Website" placeholder="Website" class="form-control">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <div class="vndr_frm_rht">
+                                  <span>i</span>
+                                  <p class="hint_para">Enquiries from couple interested in your services and updates  form weddingwire.in will be sent to this email address.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="vndr_Business">
+                          <h3>Business information</h3>
+                          <div class="vndr_frm_bx">
+                            <div class="row">
+                              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <div class="vndr_frm_lft">
+                                  <div class="form-group vndr_flx">
+                                    <label for="Username">State<sup>*</sup></label>
+                                    <select class="form-control">
+                                      <option selected>Select Country</option>
+                                      <option>India</option>
+                                      <option >Bhutan</option>
+                                      <option >Nepal</option>
+                                      <option >Shri Lanka</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="Username">City/Town<sup>*</sup></label>
+                                    <input type="text" name="City" placeholder="City/Town" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="Username">Postal Code<sup>*</sup></label>
+                                    <input type="number" name="Postal_Code" placeholder="Postal Code" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="Username">Address<sup>*</sup></label>
+                                    <input type="text" name="Address" placeholder="Address" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="Username">Name of your Business<sup>*</sup></label>
+                                    <input type="text" name="Business_name" placeholder="Business name" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="Username">Describe your business and services offered (in third person)<sup>*</sup></label>
+                                      <textarea class="form-control editordata" id="" name="editordata" rows="10" placeholder="Write Descriptions for your venue"></textarea>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <div class="vndr_frm_rht">
+                                  <span>i</span>
+                                  <p class="hint_para">Enter your business address so that user can see your location.Note that search filters and map features are based on the information.</p>
+                                </div>
+                                <div class="vndr_frm_rht">
+                                  <span>i</span>
+                                  <p class="hint_para">Add a detailed description of all the services and products that your company offers.This information will be useful for the couples.</p>
+                                  <p>Our team will edit your text to ensure quality and research engine optimization. Please don't add contacct information such as email , phone number ,website address, etc.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="vndr_Business">
+                          <!-- <h3>Business information</h3> -->
+                          <div class="row sel_dlt_inr">
+                            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                              <div class="sel_dlt_chk">
+                                <h5>Wedding Venues</h5>
                                 <div class="form-group">
-                                  <label for="Username">Describe your business and services offered (in third person)<sup>*</sup></label>
-                                  <div class="row">
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 pad_0">
-                                      <textarea class="form-control" id="" name="editordata" rows="10" placeholder="Write Descriptions for your venue"></textarea>
-                                    </div>
-                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
-                                      <div class="vndr_frm_rht">
-                                        <span>i</span>
-                                        <p class="hint_para">Add a detailed description of all the services and products that your company offers.This information will be useful for the couples.</p>
-                                        <p>Our team will edit your text to ensure quality and research engine optimization. Please don't add contacct information such as email , phone number ,website address, etc.</p>
-                                      </div>
-                                    </div>
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1">
+                                    <label class="custom-control-label" for="customCheck1">Farmhouse Wedding</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2" name="example2">
+                                    <label class="custom-control-label" for="customCheck2">Hotels</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck3" name="example3">
+                                    <label class="custom-control-label" for="customCheck3">Banquet Hall</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck4" name="example4">
+                                    <label class="custom-control-label" for="customCheck4">Party Lounge</label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                              <div class="sel_dlt_chk">
+                                <h5>Wedding Venders</h5>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck5" name="example5">
+                                    <label class="custom-control-label" for="customCheck5">Catering</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck6" name="example6">
+                                    <label class="custom-control-label" for="customCheck6">Wedding Invitarions</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck7" name="example7">
+                                    <label class="custom-control-label" for="customCheck7">Wedding Gifts</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck8" name="example8">
+                                    <label class="custom-control-label" for="customCheck8">Wedding Photography</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck9" name="example9">
+                                    <label class="custom-control-label" for="customCheck9">Wedding Music</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck10" name="example10">
+                                    <label class="custom-control-label" for="customCheck10">Wedding Transportation</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck11" name="example11">
+                                    <label class="custom-control-label" for="customCheck11">Tent House</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck12" name="example12">
+                                    <label class="custom-control-label" for="customCheck12">Wedding Entertainment</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck13" name="example13">
+                                    <label class="custom-control-label" for="customCheck13">Florists </label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck14" name="example14">
+                                    <label class="custom-control-label" for="customCheck14">Wedding Planners</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck15" name="example15">
+                                    <label class="custom-control-label" for="customCheck15">Wedding Videography</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck16" name="example16">
+                                    <label class="custom-control-label" for="customCheck16">Honeymoon</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck17" name="example17">
+                                    <label class="custom-control-label" for="customCheck17">Wedding Decoration</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck18" name="example18">
+                                    <label class="custom-control-label" for="customCheck18">Wedding Cakes</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck19" name="example19">
+                                    <label class="custom-control-label" for="customCheck19">Wedding DJ</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck20" name="example20">
+                                    <label class="custom-control-label" for="customCheck20">Pandits</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck21" name="example21">
+                                    <label class="custom-control-label" for="customCheck21">Photobooth</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck22" name="example22">
+                                    <label class="custom-control-label" for="customCheck22">Astrologers</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck23" name="example23">
+                                    <label class="custom-control-label" for="customCheck23">Wedding Choreography</label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                              <div class="sel_dlt_chk">
+                                <h5>Brides</h5>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck24" name="example24">
+                                    <label class="custom-control-label" for="customCheck24">Wedding Choreography</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck25" name="example25">
+                                    <label class="custom-control-label" for="customCheck25">Bridal Design</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck26" name="example26">
+                                    <label class="custom-control-label" for="customCheck26">Bridal Makeup</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck27" name="example27">
+                                    <label class="custom-control-label" for="customCheck27">Bridal Salon</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck28" name="example28">
+                                    <label class="custom-control-label" for="customCheck28">Bridal Jewellery </label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck29" name="example29">
+                                    <label class="custom-control-label" for="customCheck29">Troisseau Packing</label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2">
+                              <div class="sel_dlt_chk">
+                                <h5>Grooms</h5>
+                                <div class="form-group">
+                                  <div class="custom-control custom-checkbox ">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck30" name="example30">
+                                    <label class="custom-control-label" for="customCheck30">Sherwani</label>
                                   </div>
                                 </div>
                               </div>
@@ -241,216 +417,377 @@
                           </div>
                         </div>
                       </div>
+                      <div class="vndr_nxt_sec">
+                        <h4>By Clicking "Next" you are agreeing to our <a href="#">legal terms</a></h4>
+                        <button class="vndr_nxt-btn nav-item nav" ><a class="active" data-toggle="tab" href="#vendor_step_2">Next</a></button>
+                      </div>
                     </div>
-                    <div class="vndr_Business">
-                      <h3>Business information</h3>
-                      <div class="row sel_dlt_inr">
-                        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                          <div class="sel_dlt_chk">
-                            <h5>Wedding Venues</h5>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1">
-                                <label class="custom-control-label" for="customCheck1">Farmhouse Wedding</label>
-                              </div>
+                    <div class="tab-pane vendor_step_2 fade" id="vendor_step_2">
+                      <div class="vndr_stp_cntnt">
+                        <div class="vndr_gallry">
+                          <h3>Photo Gallery</h3>
+                          <div class="vndr_gallry_cntnt">
+                            <h6>8 photos are required ( venues,attries,menus,etc )</h6>
+                            <p>showcase your work by adding high quality photos of your business and the wedding services or products you offers</p>
+                          </div>
+                          <div class="upld_sec">
+                              <button class="vndr_nxt-btn">Add Images
+                                <input type="file" name="upload_image">
+                              </button>
+                          </div>
+                          
+                          <div class="drg_sec">
+                            <p class="max_sz_p">Gif or   JPG   format Max size 5MB</p>
+                            <div class="attch_sec">
+                              <i class="fa fa-link"></i>
+                              <p>Attach your latest bill (Doc,Xls,Pdf,Txt,Ppt Only,Max Size 10MB)</p>
                             </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck2" name="example2">
-                                <label class="custom-control-label" for="customCheck2">Hotels</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck3" name="example3">
-                                <label class="custom-control-label" for="customCheck3">Banquet Hall</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck4" name="example4">
-                                <label class="custom-control-label" for="customCheck4">Party Lounge</label>
-                              </div>
+                            <div class="vndr_nxt_sec">
+                              <button class="vndr_nxt-btn"><a href="vendor3.html">Next</a></button>
                             </div>
                           </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                          <div class="sel_dlt_chk">
-                            <h5>Wedding Venders</h5>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck5" name="example5">
-                                <label class="custom-control-label" for="customCheck5">Catering</label>
+                      </div>
+                      <div class="vndr_nxt_sec">
+                        <button class="vndr_nxt-btn nav-item nav"><a class="" data-toggle="tab" href="#vendor_step_3">Next</a></button>
+                      </div>
+                    </div>
+                    <div class="tab-pane vendor_step_3 fade" id="vendor_step_3">
+                      <div class="vndr_stp_cntnt">
+                        <div class="freq_ques">
+                          <h3>Frequently asked question</h3>
+                          <div class="vndr_frm_bx">
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <div class="vndr_frm_rht">
+                                  <span>i</span>
+                                  <h4 class="hint_para">Answer the FAQs for your category wedding Music</h4>
+                                  <p> The information will appear on your profile. You will provide couples with greater Knowledge about the services you offer.</p>
+                                </div>
                               </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck6" name="example6">
-                                <label class="custom-control-label" for="customCheck6">Wedding Invitarions</label>
+                              <div class="col-sm-12">
+                                <div class="question_dtl">
+                                  <div class="ques_dtl_upr">
+                                    <div class="ques_upr_lft">
+                                      <span>1.</span>
+                                      <h5>From what price can i book your services?</h5>
+                                    </div>
+                                    <!-- <div class="ques_upr_rht">
+                                      <p>pending</p>
+                                    </div> -->
+                                  </div>
+                                  <div class="ques_dtl_lwr">
+                                    <p> Enter your average pricing in order for your Storefront to appear in results when couples search by price.</p>
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <label for="Username">Lowest Price</label>
+                                        <input type="text" name="Lowest Price" placeholder="Rs" class="form-control">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck7" name="example7">
-                                <label class="custom-control-label" for="customCheck7">Wedding Gifts</label>
+                              <div class="col-sm-12">
+                                <div class="question_dtl">
+                                  <div class="ques_dtl_upr">
+                                    <div class="ques_upr_lft">
+                                      <span>2.</span>
+                                      <h5>What type of music services do you offer?</h5>
+                                    </div>
+                                    <!-- <div class="ques_upr_rht">
+                                      <p>pending</p>
+                                    </div> -->
+                                  </div>
+                                  <div class="ques_dtl_lwr row">
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <div class="custom-control custom-checkbox ">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck5" name="example5">
+                                          <label class="custom-control-label" for="customCheck5">Instrumentalists (Guitar,Violin,Dhol etc.)</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <div class="custom-control custom-checkbox ">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck6" name="example6">
+                                          <label class="custom-control-label" for="customCheck6">Live Singers</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <div class="custom-control custom-checkbox ">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck7" name="example7">
+                                          <label class="custom-control-label" for="customCheck7">Band</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <div class="custom-control custom-checkbox ">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck8" name="example8">
+                                          <label class="custom-control-label" for="customCheck8">DJ</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <div class="custom-control custom-checkbox ">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck9" name="example9">
+                                          <label class="custom-control-label" for="customCheck9">Others</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck8" name="example8">
-                                <label class="custom-control-label" for="customCheck8">Wedding Photography</label>
+                              <div class="col-sm-12">
+                                <div class="question_dtl">
+                                  <div class="ques_dtl_upr">
+                                    <div class="ques_upr_lft">
+                                      <span>3.</span>
+                                      <h5>How many musicians does your team comprise of?</h5>
+                                    </div>
+                                    <!-- <div class="ques_upr_rht">
+                                      <p>pending</p>
+                                    </div> -->
+                                  </div>
+                                  <div class="ques_dtl_lwr">
+                                    <textarea rows="5" class="form-control" placeholder="Your Answer ..."></textarea>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck9" name="example9">
-                                <label class="custom-control-label" for="customCheck9">Wedding Music</label>
+                              <div class="col-sm-12">
+                                <div class="question_dtl">
+                                  <div class="ques_dtl_upr">
+                                    <div class="ques_upr_lft">
+                                      <span>4.</span>
+                                      <h5>How many musicians does your team comprise of?</h5>
+                                    </div>
+                                    <!-- <div class="ques_upr_rht">
+                                      <p>pending</p>
+                                    </div> -->
+                                  </div>
+                                  <div class="ques_dtl_lwr">
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                      <input type="radio" class="custom-control-input" id="customRadio1" name="example1">
+                                      <label class="custom-control-label" for="customRadio1">Yes</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                      <input type="radio" class="custom-control-input" id="customRadio2" name="example2">
+                                      <label class="custom-control-label" for="customRadio2">No</label>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck10" name="example10">
-                                <label class="custom-control-label" for="customCheck10">Wedding Transportation</label>
+                              <div class="col-sm-12">
+                                <div class="question_dtl">
+                                  <div class="ques_dtl_upr">
+                                    <div class="ques_upr_lft">
+                                      <span>5.</span>
+                                      <h5>What is your base location  for providing services?</h5>
+                                    </div>
+                                    <!-- <div class="ques_upr_rht">
+                                      <p>pending</p>
+                                    </div> -->
+                                  </div>
+                                  <div class="ques_dtl_lwr">
+                                    <textarea rows="5" class="form-control" placeholder="Your Answer ..."></textarea>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck11" name="example11">
-                                <label class="custom-control-label" for="customCheck11">Tent House</label>
+                              <div class="col-sm-12">
+                                <div class="question_dtl">
+                                  <div class="ques_dtl_upr">
+                                    <div class="ques_upr_lft">
+                                      <span>6.</span>
+                                      <h5>What type of music services do you offer?</h5>
+                                    </div>
+                                    <!-- <div class="ques_upr_rht">
+                                      <p>pending</p>
+                                    </div> -->
+                                  </div>
+                                  <div class="ques_dtl_lwr row">
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <div class="custom-control custom-checkbox ">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck11" name="example11">
+                                          <label class="custom-control-label" for="customCheck11">Cash</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <div class="custom-control custom-checkbox ">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck12" name="example12">
+                                          <label class="custom-control-label" for="customCheck12">Cheque</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <div class="custom-control custom-checkbox ">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck13" name="example13">
+                                          <label class="custom-control-label" for="customCheck13">Credit Card</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <div class="custom-control custom-checkbox ">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck14" name="example14">
+                                          <label class="custom-control-label" for="customCheck14">Mobile Wallet</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <div class="custom-control custom-checkbox ">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck15" name="example15">
+                                          <label class="custom-control-label" for="customCheck15">Bank Transfer (NEFT)</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <div class="custom-control custom-checkbox ">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck16" name="example16">
+                                          <label class="custom-control-label" for="customCheck16">Debit Card</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 col-xl-4 col-lg-4 pad_0">
+                                      <div class="form-group">
+                                        <div class="custom-control custom-checkbox ">
+                                          <input type="checkbox" class="custom-control-input" id="customCheck17" name="example17">
+                                          <label class="custom-control-label" for="customCheck17">Others</label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck12" name="example12">
-                                <label class="custom-control-label" for="customCheck12">Wedding Entertainment</label>
+                              <div class="col-sm-12">
+                                <div class="question_dtl">
+                                  <div class="ques_dtl_upr">
+                                    <div class="ques_upr_lft">
+                                      <span>7.</span>
+                                      <h5>What is the percent payment/amount to confirm booking?</h5>
+                                    </div>
+                                    <!-- <div class="ques_upr_rht">
+                                      <p>pending</p>
+                                    </div> -->
+                                  </div>
+                                  <div class="ques_dtl_lwr">
+                                    <textarea rows="3" class="form-control" placeholder="Your Answer ..."></textarea>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck13" name="example13">
-                                <label class="custom-control-label" for="customCheck13">Florists </label>
+                              <div class="col-sm-12">
+                                <div class="question_dtl">
+                                  <div class="ques_dtl_upr">
+                                    <div class="ques_upr_lft">
+                                      <span>8.</span>
+                                      <h5>What is the advance amount to br paid before the event?</h5>
+                                    </div>
+                                    <!-- <div class="ques_upr_rht">
+                                      <p>pending</p>
+                                    </div> -->
+                                  </div>
+                                  <div class="ques_dtl_lwr">
+                                    <textarea rows="3" class="form-control" placeholder="Your Answer ..."></textarea>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck14" name="example14">
-                                <label class="custom-control-label" for="customCheck14">Wedding Planners</label>
+                              <div class="col-sm-12">
+                                <div class="question_dtl">
+                                  <div class="ques_dtl_upr">
+                                    <div class="ques_upr_lft">
+                                      <span>9.</span>
+                                      <h5>What is the cancellation policy?</h5>
+                                    </div>
+                                    <!-- <div class="ques_upr_rht">
+                                      <p>pending</p>
+                                    </div> -->
+                                  </div>
+                                  <div class="ques_dtl_lwr">
+                                    <textarea rows="3" class="form-control" placeholder="Your Answer ..."></textarea>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck15" name="example15">
-                                <label class="custom-control-label" for="customCheck15">Wedding Videography</label>
+                              <div class="col-sm-12">
+                                <div class="question_dtl">
+                                  <div class="ques_dtl_upr">
+                                    <div class="ques_upr_lft">
+                                      <span>10.</span>
+                                      <h5>Which year did you/your company professionally starts?</h5>
+                                    </div>
+                                    <!-- <div class="ques_upr_rht">
+                                      <p>pending</p>
+                                    </div> -->
+                                  </div>
+                                  <div class="ques_dtl_lwr">
+                                    <textarea rows="3" class="form-control" placeholder="Your Answer ..."></textarea>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck16" name="example16">
-                                <label class="custom-control-label" for="customCheck16">Honeymoon</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck17" name="example17">
-                                <label class="custom-control-label" for="customCheck17">Wedding Decoration</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck18" name="example18">
-                                <label class="custom-control-label" for="customCheck18">Wedding Cakes</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck19" name="example19">
-                                <label class="custom-control-label" for="customCheck19">Wedding DJ</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck20" name="example20">
-                                <label class="custom-control-label" for="customCheck20">Pandits</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck21" name="example21">
-                                <label class="custom-control-label" for="customCheck21">Photobooth</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck22" name="example22">
-                                <label class="custom-control-label" for="customCheck22">Astrologers</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck23" name="example23">
-                                <label class="custom-control-label" for="customCheck23">Wedding Choreography</label>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
-                          <div class="sel_dlt_chk">
-                            <h5>Brides</h5>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck24" name="example24">
-                                <label class="custom-control-label" for="customCheck24">Wedding Choreography</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck25" name="example25">
-                                <label class="custom-control-label" for="customCheck25">Bridal Design</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck26" name="example26">
-                                <label class="custom-control-label" for="customCheck26">Bridal Makeup</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck27" name="example27">
-                                <label class="custom-control-label" for="customCheck27">Bridal Salon</label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck28" name="example28">
-                                <label class="custom-control-label" for="customCheck28">Bridal Jewellery </label>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck29" name="example29">
-                                <label class="custom-control-label" for="customCheck29">Troisseau Packing</label>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2">
-                          <div class="sel_dlt_chk">
-                            <h5>Grooms</h5>
-                            <div class="form-group">
-                              <div class="custom-control custom-checkbox ">
-                                <input type="checkbox" class="custom-control-input" id="customCheck30" name="example30">
-                                <label class="custom-control-label" for="customCheck30">Sherwani</label>
+                              <div class="col-sm-12">
+                                <div class="question_dtl">
+                                  <div class="ques_dtl_upr">
+                                    <div class="ques_upr_lft">
+                                      <span>11.</span>
+                                      <h5>Awards,recognization and publication?</h5>
+                                    </div>
+                                    <!-- <div class="ques_upr_rht">
+                                      <p>pending</p>
+                                    </div> -->
+                                  </div>
+                                  <div class="ques_dtl_lwr">
+                                    <textarea rows="3" class="form-control" placeholder="Your Answer ..."></textarea>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
+                      <div class="vndr_nxt_sec">
+                        <button class="vndr_nxt-btn"><a class="nav-link" data-toggle="tab" href="#vendor_step_4">Next</a></button>
+                      </div>
                     </div>
-                  </div>
-                  <div class="vndr_nxt_sec">
-                    <h4>By Clicking "Next" you are agreeing to our <a href="#">legal terms</a></h4>
-                    <button class="vndr_nxt-btn" ><a href="vendor2.html">Next</a></button>
+                    <div class="tab-pane vendor_step_4 fade" id="vendor_step_4">
+                      <div class="vndr_stp_cntnt">
+                        <div class="dis_sec">
+                          <div class="p_off">
+                            <i class="fa fa-percent"></i>
+                            <p>Add special promotions, and discounts to your storefront</p>
+                          </div>
+                          <div class="secl_dis_sec">
+                            <img class="disc_img" src="img/Discount.svg">
+                            <p>Offer a discount to couples who find you on gofesto.com and book you services.<br>The discount will apply to the services they purchase</p>
+                            <div class="dis_rng_sec">
+                              <input type="range" class="custom-range" id="customRange" name="points1">
+                              <div class="dis_rng_sec_inr">
+                                <span>3%</span>
+                                <span>5%</span>
+                                <span>10%</span>
+                                <span>15%</span>
+                                <span>20%</span>
+                                <span>30%</span>
+                              </div>
+                            </div>
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                              <input type="checkbox" class="custom-control-input" id="checkbox" name="example1">
+                              <label class="custom-control-label" for="checkbox">I do not want to offer a discount to Gofesto couples.</label>
+                            </div>
+                          </div>
+                          <div class="vndr_nxt_sec">
+                            <button class="vndr_nxt-btn"><a href="index.html">Next</a></button>
+                          </div>  
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

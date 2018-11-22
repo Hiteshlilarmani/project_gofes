@@ -15,3 +15,7 @@ body {
     src: url("../fonts/Proxima-Nova-Light.otf");
     font-weight: 300;
 }
+@font-face {
+    font-family: "ProximaSemibold";
+    src: url("../fonts/Mark Simonson - Proxima Nova Semibold-webfont_0.ttf");
+}
